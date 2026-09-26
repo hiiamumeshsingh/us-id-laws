@@ -1,230 +1,485 @@
 <!doctype html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Learn about US ID Laws, an independent educational reference for understanding U.S. identification requirements, state rules and government procedures.">
-<meta name="theme-color" content="#0d2845">
-<title>About US ID Laws | Independent U.S. ID Requirements Guide</title>
-<link rel="stylesheet" href="../assets/styles.css">
-<style>
-.about-hero{padding:58px 0 48px;background:linear-gradient(135deg,#f5f9fd 0%,#fff 62%);border-bottom:1px solid #e7edf3}
-.about-hero .hero-grid{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(280px,.75fr);gap:48px;align-items:center}
-.about-hero .eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:800;letter-spacing:.12em;color:#2467a8;margin-bottom:12px}
-.about-hero h1{max-width:780px;margin:0 0 16px;font-size:clamp(38px,5vw,58px);line-height:1.04;letter-spacing:-.035em}
-.about-hero .lead{max-width:720px;font-size:19px;line-height:1.65;color:#526274;margin:0}
-.about-hero-card{background:#0d2845;color:#fff;border-radius:16px;padding:26px;box-shadow:0 14px 35px rgba(13,40,69,.12)}
-.about-hero-card .mini-label{font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:800;color:#9fc8ee;margin-bottom:9px}
-.about-hero-card strong{display:block;font-size:24px;line-height:1.2;margin-bottom:9px}
-.about-hero-card p{color:#d9e6f2;line-height:1.6;margin:0}
-.about-section{padding:48px 0}
-.about-section + .about-section{padding-top:0}
-.about-intro{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(260px,.65fr);gap:46px}
-.about-section h2{font-size:30px;line-height:1.2;margin:0 0 14px;letter-spacing:-.02em}
-.about-section h3{font-size:18px;margin:0 0 7px}
-.about-section p{line-height:1.72;color:#526274}
-.about-section .muted{color:#69798a}
-.about-points{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:26px}
-.about-point{border:1px solid #e3eaf1;border-radius:14px;padding:22px;background:#fff}
-.about-point .num{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:#eaf3fb;color:#2467a8;font-size:13px;font-weight:800;margin-bottom:15px}
-.about-point p{font-size:14px;margin:0}
-.about-standard{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:22px}
-.about-standard .card{border:1px solid #e3eaf1;border-radius:14px;padding:22px;background:#fff}
-.about-standard .card p{font-size:14px;margin:0}
-.about-cta{background:#f3f7fb;border:1px solid #e1e9f1;border-radius:16px;padding:30px;display:flex;align-items:center;justify-content:space-between;gap:24px}
-.about-cta h2{margin-bottom:7px}
-.about-cta p{margin:0;max-width:650px}
-@media(max-width:800px){
- .about-hero{padding:42px 0 36px}.about-hero .hero-grid,.about-intro{grid-template-columns:1fr;gap:28px}
- .about-points,.about-standard{grid-template-columns:1fr}
- .about-section{padding:38px 0}
- .about-cta{display:block}.about-cta .btn{display:inline-block;margin-top:18px}
-}
-</style>
-</head>
-<body>
-
-<div class="topbar">
-  <div class="container">
-    <span>Independent educational guide to U.S. identification requirements</span>
-    <span>Reference site • 2026</span>
-  </div>
-</div>
-
-<header>
-  <div class="container nav">
-    <a class="logo" href="../index.html"><span class="logo-mark">ID</span> US <span class="logo-word">ID Laws</span></a>
-    <nav class="menu">
-      <a href="../states/index.html">State Laws</a>
-      <a href="../guides/index.html">Guides</a>
-      <a href="../real-id/index.html">REAL ID</a>
-      <a href="../blog/index.html">Blog</a>
-      <a class="active" href="../about/index.html">About</a>
-      <a class="btn btn-primary" href="../states/index.html">Browse States</a>
-    </nav>
-    <button class="mobile" onclick="toggleMobile()">☰</button>
-  </div>
-</header>
-
-<div class="topicbar">
-  <div class="container">
-    <span class="topic-label">Popular:</span>
-    <a href="../guides/proof-of-identity/index.html">Proof of identity</a>
-    <a href="../guides/proof-of-residency/index.html">Proof of residency</a>
-    <a href="../real-id/index.html">REAL ID</a>
-    <a href="../guides/voter-id/index.html">Voter ID</a>
-    <a href="../guides/lost-stolen-id/index.html">Lost or stolen ID</a>
-    <a href="../guides/name-change/index.html">Name change</a>
-  </div>
-</div>
-
-<main>
-  <section class="about-hero">
-    <div class="container hero-grid">
-      <div>
-        <div class="eyebrow">ABOUT US ID LAWS</div>
-        <h1>Making U.S. ID requirements easier to understand.</h1>
-        <p class="lead">US ID Laws is an independent educational reference that organizes identification rules, requirements and government procedures into clear, practical resources.</p>
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width,initial-scale=1" />
+      <meta
+         name="description"
+         content="Learn about US ID Laws, an independent educational reference for understanding U.S. identification requirements, state rules and government procedures."
+      />
+      <meta name="theme-color" content="#0d2845" />
+      <title>About US ID Laws | Independent U.S. ID Requirements Guide</title>
+      <link rel="stylesheet" href="../assets/styles.css" />
+      <style>
+         .about-hero {
+            padding: 58px 0 48px;
+            background: linear-gradient(135deg, #f5f9fd 0%, #fff 62%);
+            border-bottom: 1px solid #e7edf3;
+         }
+         .about-hero .hero-grid {
+            display: grid;
+            grid-template-columns: minmax(0, 1.45fr) minmax(280px, 0.75fr);
+            gap: 48px;
+            align-items: center;
+         }
+         .about-hero .eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 12px;
+            font-weight: 800;
+            letter-spacing: 0.12em;
+            color: #2467a8;
+            margin-bottom: 12px;
+         }
+         .about-hero h1 {
+            max-width: 780px;
+            margin: 0 0 16px;
+            font-size: clamp(38px, 5vw, 58px);
+            line-height: 1.04;
+            letter-spacing: -0.035em;
+         }
+         .about-hero .lead {
+            max-width: 720px;
+            font-size: 19px;
+            line-height: 1.65;
+            color: #526274;
+            margin: 0;
+         }
+         .about-hero-card {
+            background: #0d2845;
+            color: #fff;
+            border-radius: 16px;
+            padding: 26px;
+            box-shadow: 0 14px 35px rgba(13, 40, 69, 0.12);
+         }
+         .about-hero-card .mini-label {
+            font-size: 11px;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            font-weight: 800;
+            color: #9fc8ee;
+            margin-bottom: 9px;
+         }
+         .about-hero-card strong {
+            display: block;
+            font-size: 24px;
+            line-height: 1.2;
+            margin-bottom: 9px;
+         }
+         .about-hero-card p {
+            color: #d9e6f2;
+            line-height: 1.6;
+            margin: 0;
+         }
+         .about-section {
+            padding: 48px 0;
+         }
+         .about-section + .about-section {
+            padding-top: 0;
+         }
+         .about-intro {
+            display: grid;
+            grid-template-columns: minmax(0, 1.35fr) minmax(260px, 0.65fr);
+            gap: 46px;
+         }
+         .about-section h2 {
+            font-size: 30px;
+            line-height: 1.2;
+            margin: 0 0 14px;
+            letter-spacing: -0.02em;
+         }
+         .about-section h3 {
+            font-size: 18px;
+            margin: 0 0 7px;
+         }
+         .about-section p {
+            line-height: 1.72;
+            color: #526274;
+         }
+         .about-section .muted {
+            color: #69798a;
+         }
+         .about-points {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 18px;
+            margin-top: 26px;
+         }
+         .about-point {
+            border: 1px solid #e3eaf1;
+            border-radius: 14px;
+            padding: 22px;
+            background: #fff;
+         }
+         .about-point .num {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: grid;
+            place-items: center;
+            background: #eaf3fb;
+            color: #2467a8;
+            font-size: 13px;
+            font-weight: 800;
+            margin-bottom: 15px;
+         }
+         .about-point p {
+            font-size: 14px;
+            margin: 0;
+         }
+         .about-standard {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 18px;
+            margin-top: 22px;
+         }
+         .about-standard .card {
+            border: 1px solid #e3eaf1;
+            border-radius: 14px;
+            padding: 22px;
+            background: #fff;
+         }
+         .about-standard .card p {
+            font-size: 14px;
+            margin: 0;
+         }
+         .about-cta {
+            background: #f3f7fb;
+            border: 1px solid #e1e9f1;
+            border-radius: 16px;
+            padding: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 24px;
+         }
+         .about-cta h2 {
+            margin-bottom: 7px;
+         }
+         .about-cta p {
+            margin: 0;
+            max-width: 650px;
+         }
+         @media (max-width: 800px) {
+            .about-hero {
+               padding: 42px 0 36px;
+            }
+            .about-hero .hero-grid,
+            .about-intro {
+               grid-template-columns: 1fr;
+               gap: 28px;
+            }
+            .about-points,
+            .about-standard {
+               grid-template-columns: 1fr;
+            }
+            .about-section {
+               padding: 38px 0;
+            }
+            .about-cta {
+               display: block;
+            }
+            .about-cta .btn {
+               display: inline-block;
+               margin-top: 18px;
+            }
+         }
+      </style>
+   </head>
+   <body>
+      <div class="topbar">
+         <div class="container">
+            <span
+               >Independent educational guide to U.S. identification
+               requirements</span
+            >
+            <span>Reference site • 2026</span>
+         </div>
       </div>
-      <div class="about-hero-card">
-        <div class="mini-label">Our purpose</div>
-        <strong>Clear information. Official sources. Practical guidance.</strong>
-        <p>We help readers understand what to look for before they rely on information about identification requirements.</p>
-      </div>
-    </div>
-  </section>
 
-  <section class="about-section">
-    <div class="container">
-      <div class="about-intro">
-        <div>
-          <div class="kicker">WHY US ID LAWS EXISTS</div>
-          <h2>ID requirements can be harder to navigate than they should be.</h2>
-          <p>Identification requirements vary by state, document type and situation. Information can also be spread across different government agencies and pages.</p>
-          <p>US ID Laws brings those topics together in one reference site. Our state hubs, guides and explainers are designed to help readers understand the requirements before checking the relevant government agency for current instructions.</p>
-        </div>
-        <div>
-          <h3>Independent reference</h3>
-          <p class="muted">US ID Laws is not a government agency. We do not issue identification, determine eligibility or replace official government guidance.</p>
-        </div>
+      <header>
+         <div class="container nav">
+            <a class="logo" href="../index.html"
+               ><span class="logo-mark">ID</span> US
+               <span class="logo-word">ID Laws</span></a
+            >
+            <nav class="menu">
+               <a href="../states.html">State Laws</a>
+               <a href="../guides/index.html">Guides</a>
+               <a href="../real-id/real-id.html">REAL ID</a>
+               <a href="../blog/index.html">Blog</a>
+               <a class="active" href="../about.html">About</a>
+               <a class="btn btn-primary" href="../states.html"
+                  >Browse States</a
+               >
+            </nav>
+            <button class="mobile" onclick="toggleMobile()">☰</button>
+         </div>
+      </header>
+
+      <div class="topicbar">
+         <div class="container">
+            <span class="topic-label">Popular:</span>
+            <a href="../guides/proof-of-identity.html"
+               >Proof of identity</a
+            >
+            <a href="../guides/proof-of-residency.html"
+               >Proof of residency</a
+            >
+            <a href="../real-id/real-id.html">REAL ID</a>
+            <a href="../guides/voter-id.html">Voter ID</a>
+            <a href="../guides/lost-stolen-id.html">Lost or stolen ID</a>
+            <a href="../guides/name-change.html">Name change</a>
+         </div>
       </div>
 
-      <div class="about-points">
-        <div class="about-point">
-          <div class="num">01</div>
-          <h3>State-focused</h3>
-          <p>State pages organize common ID topics in one place, including identity, residency, renewal, replacement and related requirements.</p>
-        </div>
-        <div class="about-point">
-          <div class="num">02</div>
-          <h3>Source-led</h3>
-          <p>Major factual information is intended to be traceable to authoritative government sources whenever applicable.</p>
-        </div>
-        <div class="about-point">
-          <div class="num">03</div>
-          <h3>Built for clarity</h3>
-          <p>Complex topics are broken into straightforward sections so readers can find the information relevant to their situation.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+      <main>
+         <section class="about-hero">
+            <div class="container hero-grid">
+               <div>
+                  <div class="eyebrow">ABOUT US ID LAWS</div>
+                  <h1>Making U.S. ID requirements easier to understand.</h1>
+                  <p class="lead">
+                     US ID Laws is an independent educational reference that
+                     organizes identification rules, requirements and government
+                     procedures into clear, practical resources.
+                  </p>
+               </div>
+               <div class="about-hero-card">
+                  <div class="mini-label">Our purpose</div>
+                  <strong
+                     >Clear information. Official sources. Practical
+                     guidance.</strong
+                  >
+                  <p>
+                     We help readers understand what to look for before they
+                     rely on information about identification requirements.
+                  </p>
+               </div>
+            </div>
+         </section>
 
-  <section class="about-section">
-    <div class="container">
-      <div class="kicker">OUR EDITORIAL APPROACH</div>
-      <h2>How we build and maintain the site</h2>
-      <p>Our editorial approach is centered on clarity, source transparency and regular review of state-specific information.</p>
+         <section class="about-section">
+            <div class="container">
+               <div class="about-intro">
+                  <div>
+                     <div class="kicker">WHY US ID LAWS EXISTS</div>
+                     <h2>
+                        ID requirements can be harder to navigate than they
+                        should be.
+                     </h2>
+                     <p>
+                        Identification requirements vary by state, document type
+                        and situation. Information can also be spread across
+                        different government agencies and pages.
+                     </p>
+                     <p>
+                        US ID Laws brings those topics together in one reference
+                        site. Our state hubs, guides and explainers are designed
+                        to help readers understand the requirements before
+                        checking the relevant government agency for current
+                        instructions.
+                     </p>
+                  </div>
+                  <div>
+                     <h3>Independent reference</h3>
+                     <p class="muted">
+                        US ID Laws is not a government agency. We do not issue
+                        identification, determine eligibility or replace
+                        official government guidance.
+                     </p>
+                  </div>
+               </div>
 
-      <div class="about-standard">
-        <div class="card">
-          <h3>Use authoritative sources</h3>
-          <p>Major factual claims should be supported by relevant government sources, particularly when requirements vary by state or agency.</p>
-        </div>
-        <div class="card">
-          <h3>Keep state information separate</h3>
-          <p>State-specific requirements are presented within individual state hubs rather than treating one state's rules as a nationwide standard.</p>
-        </div>
-        <div class="card">
-          <h3>Show review context</h3>
-          <p>State-specific pages should be reviewed periodically and clearly dated so readers can understand when the information was last checked.</p>
-        </div>
-        <div class="card">
-          <h3>Point readers to official guidance</h3>
-          <p>When a government agency provides the controlling instructions, readers should verify the current requirements directly with that agency.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+               <div class="about-points">
+                  <div class="about-point">
+                     <div class="num">01</div>
+                     <h3>State-focused</h3>
+                     <p>
+                        State pages organize common ID topics in one place,
+                        including identity, residency, renewal, replacement and
+                        related requirements.
+                     </p>
+                  </div>
+                  <div class="about-point">
+                     <div class="num">02</div>
+                     <h3>Source-led</h3>
+                     <p>
+                        Major factual information is intended to be traceable to
+                        authoritative government sources whenever applicable.
+                     </p>
+                  </div>
+                  <div class="about-point">
+                     <div class="num">03</div>
+                     <h3>Built for clarity</h3>
+                     <p>
+                        Complex topics are broken into straightforward sections
+                        so readers can find the information relevant to their
+                        situation.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </section>
 
-  <section class="about-section">
-    <div class="container">
-      <div class="about-intro">
-        <div>
-          <div class="kicker">WHAT YOU'LL FIND HERE</div>
-          <h2>A reference library built around real ID questions.</h2>
-          <p>US ID Laws covers topics such as driver's licenses, state identification cards, REAL ID, proof of identity, proof of residency, Social Security documentation, voter ID requirements, renewal, replacement IDs and name or address changes.</p>
-          <p>The site also provides broader guides and explainers for readers who want to understand how identification requirements work before visiting an agency or completing a government process.</p>
-        </div>
-        <div class="card">
-          <h3>Need a state-specific answer?</h3>
-          <p>Start with the state directory to find the relevant identification requirements and official sources.</p>
-          <a class="btn btn-primary" href="../states/index.html">Browse State Laws</a>
-        </div>
-      </div>
-    </div>
-  </section>
+         <section class="about-section">
+            <div class="container">
+               <div class="kicker">OUR EDITORIAL APPROACH</div>
+               <h2>How we build and maintain the site</h2>
+               <p>
+                  Our editorial approach is centered on clarity, source
+                  transparency and regular review of state-specific information.
+               </p>
 
-  <section class="about-section">
-    <div class="container">
-      <div class="about-cta">
-        <div>
-          <div class="kicker">IMPORTANT</div>
-          <h2>Use us as a starting point, not the final authority.</h2>
-          <p>Identification requirements can change. Before acting on an important requirement, verify the current instructions with the relevant government agency.</p>
-        </div>
-        <a class="btn btn-primary" href="../sources/index.html">View Our Sources</a>
-      </div>
-    </div>
-  </section>
-</main>
+               <div class="about-standard">
+                  <div class="card">
+                     <h3>Use authoritative sources</h3>
+                     <p>
+                        Major factual claims should be supported by relevant
+                        government sources, particularly when requirements vary
+                        by state or agency.
+                     </p>
+                  </div>
+                  <div class="card">
+                     <h3>Keep state information separate</h3>
+                     <p>
+                        State-specific requirements are presented within
+                        individual state hubs rather than treating one state's
+                        rules as a nationwide standard.
+                     </p>
+                  </div>
+                  <div class="card">
+                     <h3>Show review context</h3>
+                     <p>
+                        State-specific pages should be reviewed periodically and
+                        clearly dated so readers can understand when the
+                        information was last checked.
+                     </p>
+                  </div>
+                  <div class="card">
+                     <h3>Point readers to official guidance</h3>
+                     <p>
+                        When a government agency provides the controlling
+                        instructions, readers should verify the current
+                        requirements directly with that agency.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </section>
 
-<footer>
-  <div class="container">
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <div class="logo"><span class="logo-mark">ID</span> US <span class="logo-word">ID Laws</span></div>
-        <p>An educational reference for understanding U.S. identification laws, requirements and government procedures.</p>
-      </div>
-      <div>
-        <h4>Explore</h4>
-        <a href="../states/index.html">State ID Laws</a>
-        <a href="../real-id/index.html">REAL ID</a>
-        <a href="../guides/index.html">ID Guides</a>
-        <a href="../blog/index.html">Blog</a>
-      </div>
-      <div>
-        <h4>Topics</h4>
-        <a href="../guides/proof-of-identity/index.html">Proof of Identity</a>
-        <a href="../guides/proof-of-residency/index.html">Proof of Residency</a>
-        <a href="../guides/voter-id/index.html">Voter ID</a>
-        <a href="../guides/lost-stolen-id/index.html">Replacement IDs</a>
-      </div>
-      <div>
-        <h4>About</h4>
-        <a href="../about/index.html">About Us</a>
-        <a href="../editorial-policy/index.html">Editorial Policy</a>
-        <a href="../sources/index.html">Sources</a>
-        <a href="../contact/index.html">Contact</a>
-        <a href="../privacy/index.html">Privacy</a>
-      </div>
-    </div>
-    <div class="copyright">
-      <span>© 2026 US ID Laws. Educational reference.</span>
-      <span>Verify current requirements with the relevant government agency.</span>
-    </div>
-  </div>
-</footer>
+         <section class="about-section">
+            <div class="container">
+               <div class="about-intro">
+                  <div>
+                     <div class="kicker">WHAT YOU'LL FIND HERE</div>
+                     <h2>
+                        A reference library built around real ID questions.
+                     </h2>
+                     <p>
+                        US ID Laws covers topics such as driver's licenses,
+                        state identification cards, REAL ID, proof of identity,
+                        proof of residency, Social Security documentation, voter
+                        ID requirements, renewal, replacement IDs and name or
+                        address changes.
+                     </p>
+                     <p>
+                        The site also provides broader guides and explainers for
+                        readers who want to understand how identification
+                        requirements work before visiting an agency or
+                        completing a government process.
+                     </p>
+                  </div>
+                  <div class="card">
+                     <h3>Need a state-specific answer?</h3>
+                     <p>
+                        Start with the state directory to find the relevant
+                        identification requirements and official sources.
+                     </p>
+                     <a class="btn btn-primary" href="../states.html"
+                        >Browse State Laws</a
+                     >
+                  </div>
+               </div>
+            </div>
+         </section>
 
-<script src="../assets/site.js"></script>
-</body>
+         <section class="about-section">
+            <div class="container">
+               <div class="about-cta">
+                  <div>
+                     <div class="kicker">IMPORTANT</div>
+                     <h2>
+                        Use us as a starting point, not the final authority.
+                     </h2>
+                     <p>
+                        Identification requirements can change. Before acting on
+                        an important requirement, verify the current
+                        instructions with the relevant government agency.
+                     </p>
+                  </div>
+                  <a class="btn btn-primary" href="../sources/sources.html"
+                     >View Our Sources</a
+                  >
+               </div>
+            </div>
+         </section>
+      </main>
+
+      <footer>
+         <div class="container">
+            <div class="footer-grid">
+               <div class="footer-brand">
+                  <div class="logo">
+                     <span class="logo-mark">ID</span> US
+                     <span class="logo-word">ID Laws</span>
+                  </div>
+                  <p>
+                     An educational reference for understanding U.S.
+                     identification laws, requirements and government
+                     procedures.
+                  </p>
+               </div>
+               <div>
+                  <h4>Explore</h4>
+                  <a href="../states/index.html">State ID Laws</a>
+                  <a href="../real-id/index.html">REAL ID</a>
+                  <a href="../guides/index.html">ID Guides</a>
+                  <a href="../blog/index.html">Blog</a>
+               </div>
+               <div>
+                  <h4>Topics</h4>
+                  <a href="../guides/proof-of-identity/index.html"
+                     >Proof of Identity</a
+                  >
+                  <a href="../guides/proof-of-residency/index.html"
+                     >Proof of Residency</a
+                  >
+                  <a href="../guides/voter-id/index.html">Voter ID</a>
+                  <a href="../guides/lost-stolen-id/index.html"
+                     >Replacement IDs</a
+                  >
+               </div>
+               <div>
+                  <h4>About</h4>
+                  <a href="../about.html">About Us</a>
+                  <a href="../editorial-policy/editorial-policy.html">Editorial Policy</a>
+                  <a href="../sources/sources.html">Sources</a>
+                  <a href="../contact/index.html">Contact</a>
+                  <a href="../privacy/privacy-policy.html">Privacy</a>
+               </div>
+            </div>
+            <div class="copyright">
+               <span>© 2026 US ID Laws. Educational reference.</span>
+               <span
+                  >Verify current requirements with the relevant government
+                  agency.</span
+               >
+            </div>
+         </div>
+      </footer>
+
+      <script src="../assets/site.js"></script>
+   </body>
 </html>
