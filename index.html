@@ -867,98 +867,134 @@
       </main>
       <footer>
          <div class="container">
-            <div class="footer-grid">
-               <div class="footer-brand">
-                  <div class="logo">
-                     <span class="logo-mark">ID</span> US
-                     <span class="logo-word">ID Laws</span>
-                  </div>
-                  <p>
-                     An educational reference for understanding U.S.
-                     identification laws, requirements and government
-                     procedures.
-                  </p>
-               </div>
-               <div class="footer-links">
+          <div class="footer-grid">
 
-    <div>
-        <h4>Explore</h4>
-        <a href="states.html">State ID Laws</a>
-        <a href="real-id/real-id.html">REAL ID</a>
-        <a href="guides.html">ID Guides</a>
-        <a href="blog/index.html">Blog</a>
-    </div>
+   <!-- Brand -->
+   <div class="footer-brand">
+      <div class="logo">
+         <span class="logo-mark">ID</span> US
+         <span class="logo-word">ID Laws</span>
+      </div>
 
-    <div>
-        <h4>Topics</h4>
-        <a href="guides/proof-of-identity.html">Proof of Identity</a>
-        <a href="guides/proof-of-residency.html">Proof of Residency</a>
-        <a href="guides/voter-id.html">Voter ID</a>
-        <a href="guides/lost-stolen-id.html">Replacement IDs</a>
-    </div>
+      <p>
+         An educational reference for understanding U.S.
+         identification laws, requirements and government
+         procedures.
+      </p>
+   </div>
 
-    <div>
-        <h4>About</h4>
-        <a href="about.html">About Us</a>
-        <a href="editorial-policy/editorial-policy.html">Editorial Policy</a>
-        <a href="sources.html">Sources</a>
-        <a href="contact/index.html">Contact</a>
-        <a href="privacy/privacy-policy.html">Privacy</a>
-    </div>
+   <!-- Footer Links -->
+   <div class="footer-links">
+
+      <div>
+         <h4>Explore</h4>
+         <a href="states.html">State ID Laws</a>
+         <a href="real-id/real-id.html">REAL ID</a>
+         <a href="guides.html">ID Guides</a>
+         <a href="blog/index.html">Blog</a>
+      </div>
+
+      <div>
+         <h4>Topics</h4>
+         <a href="guides/proof-of-identity.html">Proof of Identity</a>
+         <a href="guides/proof-of-residency.html">Proof of Residency</a>
+         <a href="guides/voter-id.html">Voter ID</a>
+         <a href="guides/lost-stolen-id.html">Replacement IDs</a>
+      </div>
+
+      <div>
+         <h4>About</h4>
+         <a href="about.html">About Us</a>
+         <a href="editorial-policy/editorial-policy.html">Editorial Policy</a>
+         <a href="sources.html">Sources</a>
+         <a href="contact/index.html">Contact</a>
+         <a href="privacy/privacy-policy.html">Privacy</a>
+      </div>
+
+   </div>
 
 </div>
 
-<style>
+<!-- Copyright -->
+<div class="copyright">
+   <span>© 2026 US ID Laws. Educational reference.</span>
+   <span>Verify current requirements with the relevant government agency.</span>
+</div>
+            .footer-grid {
+   display: grid;
+   grid-template-columns: 280px 1fr;
+   gap: 70px;
+   align-items: start;
+}
+
 .footer-links {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 45px;
-    max-width: 650px;
+   display: grid;
+   grid-template-columns: 150px 190px 150px;
+   gap: 35px;
 }
 
 .footer-links h4 {
-    margin: 0 0 18px;
-    font-size: 16px;
-    font-weight: 600;
-    color: #ffffff;
+   margin: 0 0 20px;
+   color: #ffffff;
+   font-size: 16px;
+   font-weight: 600;
 }
 
 .footer-links a {
-    display: block;
-    margin-bottom: 11px;
-    color: #a9c4df;
-    text-decoration: none;
-    font-size: 14px;
-    line-height: 1.4;
+   display: block;
+   margin-bottom: 12px;
+   color: #a9c4df;
+   text-decoration: none;
+   font-size: 14px;
+   line-height: 1.45;
 }
 
 .footer-links a:hover {
-    color: #ffffff;
+   color: #ffffff;
+}
+
+.copyright {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 30px;
+   margin-top: 40px;
+   padding-top: 18px;
+   border-top: 1px solid rgba(169, 196, 223, 0.18);
+   color: #8fa8bf;
+   font-size: 12px;
+   line-height: 1.5;
+}
+
+@media (max-width: 850px) {
+   .footer-grid {
+      grid-template-columns: 1fr;
+      gap: 40px;
+   }
+
+   .footer-links {
+      grid-template-columns: repeat(3, 1fr);
+   }
 }
 
 @media (max-width: 600px) {
-    .footer-links {
-        grid-template-columns: 1fr 1fr;
-        gap: 30px;
-    }
+   .footer-links {
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+   }
+
+   .copyright {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 8px;
+   }
 }
 
 @media (max-width: 400px) {
-    .footer-links {
-        grid-template-columns: 1fr;
-    }
+   .footer-links {
+      grid-template-columns: 1fr;
+   }
 }
-</style>
-
-            <div class="copyright">
-               <span>© 2026 US ID Laws. Educational reference.</span
-               ><span
-                  >Verify current requirements with the relevant government
-                  agency.</span
-               >
-            </div>
-         </div>
-      </footer>
       <script src="assets/site.js"></script>
    </body>
 </html>
